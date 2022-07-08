@@ -1,6 +1,6 @@
 import React from "react";
 
-function SearchBar() {
+function SearchBar( {searchPlanet} ) {
   return (
     <div className="search">
       <input type="text" className="searchTerm" />
