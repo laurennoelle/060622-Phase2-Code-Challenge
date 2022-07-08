@@ -1,9 +1,11 @@
 import React from "react";
 
-function Planeteer( {planet} ) {
+function Planeteer( {planet, handleClick} ) {
   return (
     <li className="cards__item">
       <div className="card">
+        {/* key={planet.id}
+        onClick={() => handleClick(planet)} */}
         <img
           src={planet.pictureUrl}
           alt={planet.name}

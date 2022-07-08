@@ -18,7 +18,8 @@ function App() {
       .then(setPlaneteers);
   }, []);
 
-  
+  // function toggle(planet)
+  //   let isBio = true
   // function searchPlanet(input) {
   //   searchPlanet(search + input)
   // }

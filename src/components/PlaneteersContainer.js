@@ -1,9 +1,9 @@
 import React from "react";
 import Planeteer from "./Planeteer";
 
-function PlaneteersContainer( {planeteers}) {
+function PlaneteersContainer( {planeteers, toggle}) {
   const cards = planeteers.map((planet) => (
-  <Planeteer planet={planet} key={planet.id} />
+  <Planeteer planet={planet} key={planet.id} handleClick={toggle}/>
   ));
   
   return (
